@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+      <head>
+<meta charset="UTF-8">
+          <meta name ="viewport" content="width-device-width,initial-scale=1.0">
+          <link rel="stylesheet" href="style.css">
+          <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+           
+<title>Orders</title>
+</head>
+<body>
+  <header><div class="background">
+             <div class="transbox">
+             <h2>Lykakos Bakery </h2>
+              <h4>Freshly made traditional bread, pastries and sweets</h4>
+              </div>
+          </div>
+        
+          </header>
+<nav class="menu">
+         
+          <a href="home.html"> Home</a>    &nbsp;&nbsp;&nbsp;
+         
+          <a href="history.html">History</a>  &nbsp;&nbsp;&nbsp;  
+         
+          <a href="work.html">Creations</a>  &nbsp;&nbsp;&nbsp;  
+         
+          <a href="place.html">Location</a>    &nbsp;&nbsp;&nbsp;
+         
+        <a href="contact.html">Contact us</a>&nbsp;&nbsp;&nbsp;
+        
+        <a href="orders.html">Need something special?</a>    
+</nav>
+         
+   <section>
+   <p>Do you need something for a special occasion?
+    <br>You can place your order here!And we will contact with you as soon as possible for more details</p>
+    
+     <form action ="process.php" method="post">
+   <p>
+        <label for="NM">Name: </label>
+        <input type="text" id="NM"  placeholder="Enter your name" name="NAME" required>
+    </p>
+                                                                                
+    <p>
+        <label for="LN">Last Name: </label>
+        <input type="text" id="LN" placeholder="Enter your last name" name="LAST NAME" required>
+    </p>
+        
+    <p> 
+           <label for="tel">Phone: </label>
+            <input type="tel" id="tel" name="telephone" placeholder="69123456789" minlegth="9" maxlength="14"pattern="[0-9]">
+
+    <p>
+        <label for="eml">Email: </label>
+        <input type="email" id="eml" placeholder="name@mail.com" name="EMAIL" required>
+    </p>
+         <input type="submit">
+    </form>
+    </section>
+</body>
+<footer>Follow us on &nbsp;&nbsp;
+      <a href="https://www.instagram.com/lykakos_bakery/" target="_blank"><img src="images/insta.png" style="width:30px;"></a>  &nbsp;&nbsp;&copy; Lykakos bakery<br> Design by <a href="https://www.pgrigorakos.com" target="_blank">Panagiotis Grigorakos
+       </a>
+       </footer>
+</html>
